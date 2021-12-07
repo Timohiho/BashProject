@@ -1,0 +1,1 @@
+My target is to implement 2048 in Bash
