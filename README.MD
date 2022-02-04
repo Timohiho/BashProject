@@ -1,1 +1,1 @@
-My target is to implement 2048 in Bash
+My target is to implement 2048 in Bash, i dont have much to say in this readme, just run the script and play the game.

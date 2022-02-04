@@ -53,7 +53,7 @@ function print_board {
   for l in $(_seq 0 $index_max); do
     printf '|'
     for m in $(_seq 0 $index_max); do
-      if let ${board[l*$board_size+m]}; then
+      if let $ {board[l*$board_size+m]}; then
         if let '(last_added==(l*board_size+m))|(first_round==(l*board_size+m))'; then
           printf '\033[1m\033[31m %4d \033[0m|' ${board[l*$board_size+m]} # (last added piece) print red
         else
